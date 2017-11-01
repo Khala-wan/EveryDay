@@ -1,0 +1,14 @@
+github "Moya/Moya" ~> 9.0
+github "ReactiveX/RxSwift" ~> 3.6.1
+github "SnapKit/SnapKit" ~> 4.0.0
+github "alibaba/HandyJSON" ~> 1.7.2
+github "onevcat/Kingfisher" ~> 4.0.1
+github "jdg/MBProgressHUD" ~> 1.0.0
+github "Quick/Quick"
+github "Quick/Nimble"
+github "devxoul/Toaster"
+github "lkzhao/Hero"
+github "nickoneill/PermissionScope" ~> 1.0.2
+github "hackiftekhar/IQKeyboardManager"
+gitHub "Khala-wan/SimpleAlert" ~> 2.0.5
+github "realm/realm-cocoa" ~> 2.10.1

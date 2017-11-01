@@ -14,6 +14,10 @@
 		206C24141FA9C7E000E5FFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 206C24121FA9C7E000E5FFF8 /* LaunchScreen.storyboard */; };
 		206C241F1FA9C7E000E5FFF8 /* EveryDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C241E1FA9C7E000E5FFF8 /* EveryDayTests.swift */; };
 		206C242A1FA9C7E000E5FFF8 /* EveryDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C24291FA9C7E000E5FFF8 /* EveryDayUITests.swift */; };
+		206C24591FA9CFB200E5FFF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C24581FA9CFB200E5FFF8 /* MainViewController.swift */; };
+		20A5250A1FA9D0E7001A916C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */; };
+		20A5250B1FA9D116001A916C /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 206C24381FA9CACC00E5FFF8 /* LaunchScreen.png */; };
+		20A5250F1FA9D820001A916C /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,9 @@
 		206C242B1FA9C7E000E5FFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206C24381FA9CACC00E5FFF8 /* LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchScreen.png; sourceTree = "<group>"; };
 		206C24391FA9CACC00E5FFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206C24581FA9CFB200E5FFF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +146,7 @@
 		206C243A1FA9CD2A00E5FFF8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				20A5250D1FA9D802001A916C /* Base */,
 				206C243B1FA9CD2A00E5FFF8 /* Tools */,
 				206C243C1FA9CD2A00E5FFF8 /* AddHomeWork */,
 				206C24411FA9CD2A00E5FFF8 /* Calendar */,
@@ -279,6 +287,7 @@
 		206C244B1FA9CD2A00E5FFF8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -325,6 +334,7 @@
 		206C24511FA9CD2A00E5FFF8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				206C24581FA9CFB200E5FFF8 /* MainViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -375,6 +385,14 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
+		20A5250D1FA9D802001A916C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -385,6 +403,7 @@
 				206C24021FA9C7E000E5FFF8 /* Sources */,
 				206C24031FA9C7E000E5FFF8 /* Frameworks */,
 				206C24041FA9C7E000E5FFF8 /* Resources */,
+				20A5250C1FA9D549001A916C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -484,6 +503,7 @@
 			files = (
 				206C24141FA9C7E000E5FFF8 /* LaunchScreen.storyboard in Resources */,
 				206C24111FA9C7E000E5FFF8 /* Assets.xcassets in Resources */,
+				20A5250B1FA9D116001A916C /* LaunchScreen.png in Resources */,
 				206C240F1FA9C7E000E5FFF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,13 +524,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20A5250C1FA9D549001A916C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MBProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/HandyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Toaster.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Hero.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PermissionScope.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SimpleAlert.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxMoya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MBProgressHUD.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/HandyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Toaster.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Hero.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/PermissionScope.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IQKeyboardManagerSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SimpleAlert.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		206C24021FA9C7E000E5FFF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206C24591FA9CFB200E5FFF8 /* MainViewController.swift in Sources */,
 				206C240C1FA9C7E000E5FFF8 /* ViewController.swift in Sources */,
 				206C240A1FA9C7E000E5FFF8 /* AppDelegate.swift in Sources */,
+				20A5250F1FA9D820001A916C /* BaseTabBarViewController.swift in Sources */,
+				20A5250A1FA9D0E7001A916C /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
