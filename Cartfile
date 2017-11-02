@@ -12,3 +12,4 @@ github "nickoneill/PermissionScope" ~> 1.0.2
 github "hackiftekhar/IQKeyboardManager"
 gitHub "Khala-wan/SimpleAlert" ~> 2.0.5
 github "realm/realm-cocoa" ~> 2.10.1
+github "patchthecode/JTAppleCalendar" ~> 7.0

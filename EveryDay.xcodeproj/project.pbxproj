@@ -18,6 +18,41 @@
 		20A5250A1FA9D0E7001A916C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */; };
 		20A5250B1FA9D116001A916C /* LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 206C24381FA9CACC00E5FFF8 /* LaunchScreen.png */; };
 		20A5250F1FA9D820001A916C /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */; };
+		20B5C13C1FAAD1E000C105A8 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C13B1FAAD1E000C105A8 /* CalenderViewController.swift */; };
+		20B5C13E1FAAD1F000C105A8 /* PersonCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C13D1FAAD1F000C105A8 /* PersonCenterViewController.swift */; };
+		20B5C1441FAAD22600C105A8 /* CircleAroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1431FAAD22600C105A8 /* CircleAroundViewController.swift */; };
+		20B5C1461FAAF43000C105A8 /* Marco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1451FAAF43000C105A8 /* Marco.swift */; };
+		20B5C1481FAAF44900C105A8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1471FAAF44900C105A8 /* LogInViewController.swift */; };
+		20B5C14B1FAAF53B00C105A8 /* SnakePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C14A1FAAF52900C105A8 /* SnakePageControl.swift */; };
+		20B5C14E1FAAF72000C105A8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C14D1FAAF72000C105A8 /* Alamofire.framework */; };
+		20B5C1681FAAF74D00C105A8 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1501FAAF74D00C105A8 /* Result.framework */; };
+		20B5C16A1FAAF74D00C105A8 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1521FAAF74D00C105A8 /* SnapKit.framework */; };
+		20B5C16B1FAAF74D00C105A8 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1531FAAF74D00C105A8 /* JTAppleCalendar.framework */; };
+		20B5C16C1FAAF74D00C105A8 /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1541FAAF74D00C105A8 /* RxMoya.framework */; };
+		20B5C16D1FAAF74D00C105A8 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1551FAAF74D00C105A8 /* RealmSwift.framework */; };
+		20B5C16E1FAAF74D00C105A8 /* Toaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1561FAAF74D00C105A8 /* Toaster.framework */; };
+		20B5C1701FAAF74D00C105A8 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1581FAAF74D00C105A8 /* RxBlocking.framework */; };
+		20B5C1721FAAF74D00C105A8 /* SimpleAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C15A1FAAF74D00C105A8 /* SimpleAlert.framework */; };
+		20B5C1731FAAF74D00C105A8 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C15B1FAAF74D00C105A8 /* HandyJSON.framework */; };
+		20B5C1741FAAF74D00C105A8 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C15C1FAAF74D00C105A8 /* Moya.framework */; };
+		20B5C1761FAAF74D00C105A8 /* Hero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C15E1FAAF74D00C105A8 /* Hero.framework */; };
+		20B5C1771FAAF74D00C105A8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C15F1FAAF74D00C105A8 /* RxCocoa.framework */; };
+		20B5C1791FAAF74D00C105A8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1611FAAF74D00C105A8 /* RxSwift.framework */; };
+		20B5C17A1FAAF74D00C105A8 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1621FAAF74D00C105A8 /* Kingfisher.framework */; };
+		20B5C17B1FAAF74D00C105A8 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1631FAAF74D00C105A8 /* IQKeyboardManagerSwift.framework */; };
+		20B5C17C1FAAF74D00C105A8 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1641FAAF74D00C105A8 /* MBProgressHUD.framework */; };
+		20B5C17D1FAAF74D00C105A8 /* PermissionScope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1651FAAF74D00C105A8 /* PermissionScope.framework */; };
+		20B5C1891FAAF7CA00C105A8 /* XIB+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C17F1FAAF7C800C105A8 /* XIB+Extension.swift */; };
+		20B5C18A1FAAF7CA00C105A8 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1801FAAF7C800C105A8 /* String+Extension.swift */; };
+		20B5C18B1FAAF7CA00C105A8 /* MBProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1811FAAF7C800C105A8 /* MBProgressHUD+Extension.swift */; };
+		20B5C18C1FAAF7CA00C105A8 /* UINavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1821FAAF7C900C105A8 /* UINavigationBar+Extension.swift */; };
+		20B5C18D1FAAF7CA00C105A8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1831FAAF7C900C105A8 /* UIView+Extension.swift */; };
+		20B5C18E1FAAF7CA00C105A8 /* Toast+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1841FAAF7C900C105A8 /* Toast+Extension.swift */; };
+		20B5C18F1FAAF7CA00C105A8 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1851FAAF7C900C105A8 /* UIButton+Extension.swift */; };
+		20B5C1911FAAF7CA00C105A8 /* UIVIewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1871FAAF7CA00C105A8 /* UIVIewController+Extension.swift */; };
+		20B5C1921FAAF7CA00C105A8 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1881FAAF7CA00C105A8 /* UINavigationController+Extension.swift */; };
+		20B5C1941FAAF9BB00C105A8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B5C1931FAAF93F00C105A8 /* UserModel.swift */; };
+		20B5C1961FAAF9FB00C105A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B5C1951FAAF9FA00C105A8 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +90,48 @@
 		206C24581FA9CFB200E5FFF8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		20B5C13B1FAAD1E000C105A8 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		20B5C13D1FAAD1F000C105A8 /* PersonCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCenterViewController.swift; sourceTree = "<group>"; };
+		20B5C1431FAAD22600C105A8 /* CircleAroundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAroundViewController.swift; sourceTree = "<group>"; };
+		20B5C1451FAAF43000C105A8 /* Marco.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marco.swift; sourceTree = "<group>"; };
+		20B5C1471FAAF44900C105A8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		20B5C14A1FAAF52900C105A8 /* SnakePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakePageControl.swift; sourceTree = "<group>"; };
+		20B5C14D1FAAF72000C105A8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		20B5C14F1FAAF74D00C105A8 /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		20B5C1501FAAF74D00C105A8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		20B5C1511FAAF74D00C105A8 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		20B5C1521FAAF74D00C105A8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		20B5C1531FAAF74D00C105A8 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
+		20B5C1541FAAF74D00C105A8 /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		20B5C1551FAAF74D00C105A8 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		20B5C1561FAAF74D00C105A8 /* Toaster.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Toaster.framework; path = Carthage/Build/iOS/Toaster.framework; sourceTree = "<group>"; };
+		20B5C1571FAAF74D00C105A8 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		20B5C1581FAAF74D00C105A8 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		20B5C1591FAAF74D00C105A8 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		20B5C15A1FAAF74D00C105A8 /* SimpleAlert.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleAlert.framework; path = Carthage/Build/iOS/SimpleAlert.framework; sourceTree = "<group>"; };
+		20B5C15B1FAAF74D00C105A8 /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		20B5C15C1FAAF74D00C105A8 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		20B5C15D1FAAF74D00C105A8 /* IQKeyboardManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManager.framework; path = Carthage/Build/iOS/IQKeyboardManager.framework; sourceTree = "<group>"; };
+		20B5C15E1FAAF74D00C105A8 /* Hero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hero.framework; path = Carthage/Build/iOS/Hero.framework; sourceTree = "<group>"; };
+		20B5C15F1FAAF74D00C105A8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		20B5C1601FAAF74D00C105A8 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		20B5C1611FAAF74D00C105A8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		20B5C1621FAAF74D00C105A8 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		20B5C1631FAAF74D00C105A8 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		20B5C1641FAAF74D00C105A8 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
+		20B5C1651FAAF74D00C105A8 /* PermissionScope.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PermissionScope.framework; path = Carthage/Build/iOS/PermissionScope.framework; sourceTree = "<group>"; };
+		20B5C1661FAAF74D00C105A8 /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
+		20B5C17F1FAAF7C800C105A8 /* XIB+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XIB+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1801FAAF7C800C105A8 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1811FAAF7C800C105A8 /* MBProgressHUD+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1821FAAF7C900C105A8 /* UINavigationBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1831FAAF7C900C105A8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1841FAAF7C900C105A8 /* Toast+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Toast+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1851FAAF7C900C105A8 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1871FAAF7CA00C105A8 /* UIVIewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewController+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1881FAAF7CA00C105A8 /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		20B5C1931FAAF93F00C105A8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		20B5C1951FAAF9FA00C105A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +139,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B5C1961FAAF9FB00C105A8 /* CoreLocation.framework in Frameworks */,
+				20B5C14E1FAAF72000C105A8 /* Alamofire.framework in Frameworks */,
+				20B5C1681FAAF74D00C105A8 /* Result.framework in Frameworks */,
+				20B5C16A1FAAF74D00C105A8 /* SnapKit.framework in Frameworks */,
+				20B5C16B1FAAF74D00C105A8 /* JTAppleCalendar.framework in Frameworks */,
+				20B5C16C1FAAF74D00C105A8 /* RxMoya.framework in Frameworks */,
+				20B5C16D1FAAF74D00C105A8 /* RealmSwift.framework in Frameworks */,
+				20B5C16E1FAAF74D00C105A8 /* Toaster.framework in Frameworks */,
+				20B5C1701FAAF74D00C105A8 /* RxBlocking.framework in Frameworks */,
+				20B5C1721FAAF74D00C105A8 /* SimpleAlert.framework in Frameworks */,
+				20B5C1731FAAF74D00C105A8 /* HandyJSON.framework in Frameworks */,
+				20B5C1741FAAF74D00C105A8 /* Moya.framework in Frameworks */,
+				20B5C1761FAAF74D00C105A8 /* Hero.framework in Frameworks */,
+				20B5C1771FAAF74D00C105A8 /* RxCocoa.framework in Frameworks */,
+				20B5C1791FAAF74D00C105A8 /* RxSwift.framework in Frameworks */,
+				20B5C17A1FAAF74D00C105A8 /* Kingfisher.framework in Frameworks */,
+				20B5C17B1FAAF74D00C105A8 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				20B5C17C1FAAF74D00C105A8 /* MBProgressHUD.framework in Frameworks */,
+				20B5C17D1FAAF74D00C105A8 /* PermissionScope.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +185,7 @@
 				206C241D1FA9C7E000E5FFF8 /* EveryDayTests */,
 				206C24281FA9C7E000E5FFF8 /* EveryDayUITests */,
 				206C24071FA9C7E000E5FFF8 /* Products */,
+				20B5C14C1FAAF71F00C105A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +243,7 @@
 		206C243A1FA9CD2A00E5FFF8 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C1491FAAF52200C105A8 /* Launch */,
 				20A5250D1FA9D802001A916C /* Base */,
 				206C243B1FA9CD2A00E5FFF8 /* Tools */,
 				206C243C1FA9CD2A00E5FFF8 /* AddHomeWork */,
@@ -241,6 +339,7 @@
 		206C24451FA9CD2A00E5FFF8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C13B1FAAD1E000C105A8 /* CalenderViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -266,6 +365,7 @@
 		206C24481FA9CD2A00E5FFF8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C1931FAAF93F00C105A8 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -280,6 +380,7 @@
 		206C244A1FA9CD2A00E5FFF8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C13D1FAAD1F000C105A8 /* PersonCenterViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -287,6 +388,16 @@
 		206C244B1FA9CD2A00E5FFF8 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C1811FAAF7C800C105A8 /* MBProgressHUD+Extension.swift */,
+				20B5C1801FAAF7C800C105A8 /* String+Extension.swift */,
+				20B5C1841FAAF7C900C105A8 /* Toast+Extension.swift */,
+				20B5C1851FAAF7C900C105A8 /* UIButton+Extension.swift */,
+				20B5C1821FAAF7C900C105A8 /* UINavigationBar+Extension.swift */,
+				20B5C1881FAAF7CA00C105A8 /* UINavigationController+Extension.swift */,
+				20B5C1831FAAF7C900C105A8 /* UIView+Extension.swift */,
+				20B5C1871FAAF7CA00C105A8 /* UIVIewController+Extension.swift */,
+				20B5C17F1FAAF7C800C105A8 /* XIB+Extension.swift */,
+				20B5C1451FAAF43000C105A8 /* Marco.swift */,
 				206C245A1FA9D06300E5FFF8 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
@@ -295,6 +406,10 @@
 		206C244C1FA9CD2A00E5FFF8 /* CircleAround */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C1411FAAD20D00C105A8 /* ViewModel */,
+				20B5C1401FAAD20D00C105A8 /* Model */,
+				20B5C13F1FAAD20D00C105A8 /* View */,
+				20B5C1421FAAD20D00C105A8 /* ViewController */,
 			);
 			path = CircleAround;
 			sourceTree = "<group>";
@@ -381,6 +496,7 @@
 		206C24571FA9CD2A00E5FFF8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				20B5C1471FAAF44900C105A8 /* LogInViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -391,6 +507,76 @@
 				20A5250E1FA9D820001A916C /* BaseTabBarViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		20B5C13F1FAAD20D00C105A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20B5C1401FAAD20D00C105A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20B5C1411FAAD20D00C105A8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		20B5C1421FAAD20D00C105A8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20B5C1431FAAD22600C105A8 /* CircleAroundViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20B5C1491FAAF52200C105A8 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				20B5C14A1FAAF52900C105A8 /* SnakePageControl.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		20B5C14C1FAAF71F00C105A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B5C1951FAAF9FA00C105A8 /* CoreLocation.framework */,
+				20B5C15B1FAAF74D00C105A8 /* HandyJSON.framework */,
+				20B5C15E1FAAF74D00C105A8 /* Hero.framework */,
+				20B5C15D1FAAF74D00C105A8 /* IQKeyboardManager.framework */,
+				20B5C1631FAAF74D00C105A8 /* IQKeyboardManagerSwift.framework */,
+				20B5C1531FAAF74D00C105A8 /* JTAppleCalendar.framework */,
+				20B5C1621FAAF74D00C105A8 /* Kingfisher.framework */,
+				20B5C1641FAAF74D00C105A8 /* MBProgressHUD.framework */,
+				20B5C15C1FAAF74D00C105A8 /* Moya.framework */,
+				20B5C1591FAAF74D00C105A8 /* Nimble.framework */,
+				20B5C1651FAAF74D00C105A8 /* PermissionScope.framework */,
+				20B5C1601FAAF74D00C105A8 /* Quick.framework */,
+				20B5C1661FAAF74D00C105A8 /* ReactiveMoya.framework */,
+				20B5C14F1FAAF74D00C105A8 /* ReactiveSwift.framework */,
+				20B5C1571FAAF74D00C105A8 /* Realm.framework */,
+				20B5C1551FAAF74D00C105A8 /* RealmSwift.framework */,
+				20B5C1501FAAF74D00C105A8 /* Result.framework */,
+				20B5C1581FAAF74D00C105A8 /* RxBlocking.framework */,
+				20B5C15F1FAAF74D00C105A8 /* RxCocoa.framework */,
+				20B5C1541FAAF74D00C105A8 /* RxMoya.framework */,
+				20B5C1611FAAF74D00C105A8 /* RxSwift.framework */,
+				20B5C1511FAAF74D00C105A8 /* RxTest.framework */,
+				20B5C15A1FAAF74D00C105A8 /* SimpleAlert.framework */,
+				20B5C1521FAAF74D00C105A8 /* SnapKit.framework */,
+				20B5C1561FAAF74D00C105A8 /* Toaster.framework */,
+				20B5C14D1FAAF72000C105A8 /* Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,6 +735,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SimpleAlert.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JTAppleCalendar.framework",
 			);
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
@@ -568,10 +755,11 @@
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SimpleAlert.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Realm.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RealmSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JTAppleCalendar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -580,11 +768,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B5C1911FAAF7CA00C105A8 /* UIVIewController+Extension.swift in Sources */,
+				20B5C1941FAAF9BB00C105A8 /* UserModel.swift in Sources */,
+				20B5C13C1FAAD1E000C105A8 /* CalenderViewController.swift in Sources */,
+				20B5C1891FAAF7CA00C105A8 /* XIB+Extension.swift in Sources */,
+				20B5C18D1FAAF7CA00C105A8 /* UIView+Extension.swift in Sources */,
 				206C24591FA9CFB200E5FFF8 /* MainViewController.swift in Sources */,
+				20B5C1461FAAF43000C105A8 /* Marco.swift in Sources */,
+				20B5C18F1FAAF7CA00C105A8 /* UIButton+Extension.swift in Sources */,
+				20B5C1441FAAD22600C105A8 /* CircleAroundViewController.swift in Sources */,
+				20B5C14B1FAAF53B00C105A8 /* SnakePageControl.swift in Sources */,
+				20B5C18A1FAAF7CA00C105A8 /* String+Extension.swift in Sources */,
 				206C240C1FA9C7E000E5FFF8 /* ViewController.swift in Sources */,
+				20B5C1921FAAF7CA00C105A8 /* UINavigationController+Extension.swift in Sources */,
+				20B5C18C1FAAF7CA00C105A8 /* UINavigationBar+Extension.swift in Sources */,
 				206C240A1FA9C7E000E5FFF8 /* AppDelegate.swift in Sources */,
+				20B5C18B1FAAF7CA00C105A8 /* MBProgressHUD+Extension.swift in Sources */,
 				20A5250F1FA9D820001A916C /* BaseTabBarViewController.swift in Sources */,
 				20A5250A1FA9D0E7001A916C /* UIColor+Extension.swift in Sources */,
+				20B5C1481FAAF44900C105A8 /* LogInViewController.swift in Sources */,
+				20B5C18E1FAAF7CA00C105A8 /* Toast+Extension.swift in Sources */,
+				20B5C13E1FAAD1F000C105A8 /* PersonCenterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,6 +956,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EveryDay/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansheng.EveryDay;
@@ -768,6 +976,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = EveryDay/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wansheng.EveryDay;

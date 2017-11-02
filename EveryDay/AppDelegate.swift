@@ -51,11 +51,12 @@ extension AppDelegate{
     
     fileprivate final func windowInit(){
         window?.backgroundColor = UIColor.white
-        let tabBarVC = getTabBarVC()
-        tabBarVC.tabBar.isTranslucent = false
-        UITabBar.appearance().tintColor = UIColor.getColor("00b4c3")
-        UINavigationBar.appearance().isTranslucent = false
-        window?.rootViewController = tabBarVC
+        if UserModel.shared().userID != nil {
+            let tabBarVC = getTabBarVC()
+            window?.rootViewController = tabBarVC
+        }else{
+            window?.rootViewController = LogInViewController()
+        }
         window?.makeKeyAndVisible();
     }
     
@@ -70,10 +71,33 @@ extension AppDelegate{
         self.setUpTabbarItemWith(childFH, title: "", image_N: "tab_Main", image_S: "tab_Main_选中")
         baseTab.addChildViewController(childFH)
         
+        //日历
+        let calenderVC:CalenderViewController = CalenderViewController()
+        let childCL:UINavigationController = UINavigationController.init(rootViewController:calenderVC)
+        self.setUpTabbarItemWith(childCL, title: "", image_N: "tab_Calender", image_S: "tab_Calender_选中")
+        baseTab.addChildViewController(childCL)
+        
         let addVc:UIViewController = UIViewController()
         self.setUpTabbarItemWith(addVc, title: "", image_N: "tab_Add", image_S: "tab_Add_选中",insert: UIEdgeInsets(top: -20, left: 0, bottom: -7, right: 0))
         baseTab.addChildViewController(addVc)
         
+        //圈子
+        let circleAroundVC:MainViewController = MainViewController()
+        let childCA:UINavigationController = UINavigationController.init(rootViewController:circleAroundVC)
+        self.setUpTabbarItemWith(childCA, title: "", image_N: "tab_CircleAround", image_S: "tab_CircleAround_选中")
+        baseTab.addChildViewController(childCA)
+        
+        //个人中心
+        let personCenterVC:MainViewController = MainViewController()
+        let childPC:UINavigationController = UINavigationController.init(rootViewController:personCenterVC)
+        self.setUpTabbarItemWith(childPC, title: "", image_N: "tab_PersonCenter", image_S: "tab_PersonCenter_选中")
+        baseTab.addChildViewController(childPC)
+        
+        baseTab.tabBar.isTranslucent = false
+        UITabBar.appearance().tintColor = UIColor.getColor("00b4c3")
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .compact)
+        UINavigationBar.appearance().shadowImage = UIImage()
         return baseTab
     }
     
